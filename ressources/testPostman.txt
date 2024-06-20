@@ -1,0 +1,16 @@
+ Post :http://localhost:8088/api/v1/auth/register
+ {
+     "firstname": "Maycem",
+     "lastname": "Amor",
+     "email": "maycem@gmail.com",
+     "password": "password11"
+ }
+------------
+get :  http://localhost:8088/api/v1/auth/activate-account?token=######
+------------
+post: http://localhost:8088/api/v1/auth/authenticate
+
+{
+    "email": "maycem@gmail.com",
+    "password": "password11"
+}
